@@ -1,0 +1,62 @@
+a {
+  color: white;
+}
+.about {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  color: white;
+}
+.links {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+body {
+  background: url(https://dl.dropboxusercontent.com/u/27247835/FreeCodeCamp/weatherizer/Q9bqpfu.jpg) no-repeat center center fixed;
+}
+#wrapper {
+  border-radius: 20px;
+  width: 800px;
+  margin: auto;
+  margin-top: 2em;
+  padding-bottom: 2em;
+  overflow: hidden;
+  //background-color: orange;
+}
+#switch-temp {
+  position: absolute;
+  top: 1.4em;
+  right: 1.4em;
+  border: 1px solid black;
+  background-color: #008B8B;
+}
+#weather {
+  border: 1px solid black;
+}
+.top-align {
+  position: absolute;
+  top: 10px;
+}
+.col-md-1 {
+  border: 1px black solid;
+  border-radius: 15px;
+  background-color: #008B8B;
+  width: 110px;
+}
+.sizeup {
+  font-size: 3em;
+}
+#weather-icon {
+  padding-bottom: 16px;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    //margin-right:-4px;
+}
